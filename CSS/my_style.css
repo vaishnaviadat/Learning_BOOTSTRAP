@@ -1,0 +1,14 @@
+body {
+    background-color: lightgray; /* Example for whole page */
+  }
+
+  .navbar .nav-link {
+    color: white; /* default text color */
+  }
+
+  .navbar .nav-link:hover,
+  .navbar .nav-link.active:hover { 
+    background-color: #2965a5 !important;
+    color: black !important;
+  }
+  
