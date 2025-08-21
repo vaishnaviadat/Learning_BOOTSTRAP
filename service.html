@@ -64,14 +64,14 @@
     </header>
     <!--Header End-->
      <main>
-      <section class="mt-5">
-        <div class="container">
+      <section class="mt-4">
+        <div class="conatiner">
           <div class="row">
-            <div class="col-md-6-table responsive">
-              <table class="table table-secondary table-striped table-hover table-bordered border-primary">
+            <div class="col-md-6 table-responsive">
+              <table class="table table-light table-striped table-hover table-bordered border-primary">
                 <h2>Mobile Accessories Services</h2>
   <thead>
-    <tr>
+    <tr class="table-dark">
       <th>Accessory</th>
       <th>Description</th>
       <th>Price (₹)</th>
@@ -105,9 +105,53 @@
     </tr>
   </tbody>
 </table>
+<table class="table table-light table-striped table-hover table-bordered border-primary">
+  <h2>Mobile Repair Services</h2>
+  <thead class="table-dark">
+    <tr>
+      <th>Service</th>
+      <th>Description</th>
+      <th>Price (₹)</th>
+      <th>Turnaround Time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Screen Replacement</td>
+      <td>Replace broken or cracked screens</td>
+      <td>1,500 - 4,000</td>
+      <td>1-2 days</td>
+    </tr>
+    <tr>
+      <td>Battery Replacement</td>
+      <td>Replace old or faulty batteries</td>
+      <td>800 - 1,500</td>
+      <td>1 day</td>
+    </tr>
+    <tr>
+      <td>Camera Repair</td>
+      <td>Fix front/back camera issues</td>
+      <td>1,000 - 3,000</td>
+      <td>1-2 days</td>
+    </tr>
+    <tr>
+      <td>Charging Port Repair</td>
+      <td>Fix charging problems</td>
+      <td>700 - 1,500</td>
+      <td>Same day</td>
+    </tr>
+    <tr>
+      <td>Software Update</td>
+      <td>Update OS & apps</td>
+      <td>300 - 500</td>
+      <td>Same day</td>
+    </tr>
+  </tbody>
+</table>
+
 </div>
-<div class="col-md-6">
-  <h2>FAQ'S</h2>
+            <div class="col-md-6">
+               <h2>FAQ'S</h2>
   <div class="accordion" id="accordionExample">
   <div class="accordion-item">
     <h2 class="accordion-header">
@@ -147,11 +191,11 @@
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
       4.What is responsive design?
       </button>
     </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
         <p>Responsive design is a method of web design where the website's layout automatically adjusts to fit the screen size of the device being used. </p>
       </div>
@@ -159,11 +203,11 @@
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
       5.What are the benefits of responsive design?
       </button>
     </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
         <p>Responsive design ensures consistent branding, improves user experience, and is generally more cost-effective than maintaining separate mobile and desktop sites. </p>
       </div>
@@ -171,22 +215,22 @@
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
       6.How can I test if my website is mobile-friendly?
       </button>
     </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
         <p>Use Google's Mobile-Friendly Test tool or check your site on various mobile devices to assess its responsiveness and usability. </p>
       </div>
     </div>
   </div><div class="accordion-item">
     <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseThree">
       7.What are some common mobile website design mistakes to avoid?
       </button>
     </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+    <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
         <p>Avoid using excessive text, small font sizes, slow loading times, and complex navigation that can frustrate mobile users. </p>
       </div>
@@ -194,21 +238,38 @@
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseThree">
       8.How does mobile-friendliness affect SEO?
       </button>
     </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+    <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
         <p>Google prioritizes mobile-friendly websites in its search results, meaning that having a responsive website can improve your search engine rankings and visibility. </p>
       </div>
     </div>
   </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseThree">
+      9.What are the benefits of a mobile-friendly website?
+      </button>
+    </h2>
+    <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>Benefits include improved user experience, higher conversion rates, increased website traffic, better SEO rankings, and a stronger brand reputation. </p>
+      </div>
+    </div>
+  </div>
+
+
 </div>
 </div>
+</div>
+ </div>
+
+            </div>
           </div>
         </div>
-
       </section>
      </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
