@@ -1,81 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Page</title>
-    <link href="CSS/my_style.css" rel="stylesheet" type="text/css">
+    <link href="CSS/my_style.css" rel="stylesheet" type="text/css" />
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
 
     <style>
-        .nav-link:hover{
-            background-color:#2d69a9;
-            color: black;
-        }
-        body {
-                  background-color: lightgray; /* Example for whole page */
-            }
+      .nav-link:hover {
+        background-color: #2d69a9;
+        color: black;
+      }
+      body {
+        background-color: lightgray; /* Example for whole page */
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <!--Header Start-->
     <header>
-        <nav class="navbar navbar-expand-lg bg-primary"data-bs-theme="dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-              <img src="images/MOB_Logo.webp" alt="Bootstrap" width="30" height="24"> Mobile Shop</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About Us</a>
-        </li>
+      <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="images/MOB_Logo.webp"
+              alt="Bootstrap"
+              width="30"
+              height="24"
+            />
+            Mobile Shop</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="service.html">Services</a>
-        </li>
+              <li class="nav-item">
+                <a class="nav-link" href="service.html">Services</a>
+              </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="product.html">Products</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Gallery
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="photo.html">Photo</a></li>
-            <li><a class="dropdown-item" href="video.html">Video</a></li>
-
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="contact.html">Contact Us</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+              <li class="nav-item">
+                <a class="nav-link" href="product.html">Products</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Gallery
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="photo.html">Photo</a></li>
+                  <li><a class="dropdown-item" href="video.html">Video</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <!--Header End-->
-     <h1>contact page</h1>
+    <h1>contact page</h1>
+    <main>
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <form>
+                <div class="row">
+                <div class=" col-md-6 mb-3">
+                  <div class="form-floating mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="floatingInput"
+                      placeholder="Full Name"
+                    />
+                    <label for="floatingInput">Full Name</label>
+                    </div>
+                    </div>
+                    <div class=" col-md-6 mb-3">
+                    <div class="form-floating mb-3">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="floatingInput"
+                      placeholder="name@example.com"
+                    />
+                    <label for="floatingInput">Email address</label>
+                  </div>
+                  </div>
+                  </div>
+                  
+                  <div class="form-floating">
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="floatingPassword"
+                      placeholder="Password"
+                    />
+                    <label for="floatingPassword">Password</label>
+                  </div>
+                </div>
+              </form>
+</div>
+            <div class="col-md-6 mt-4">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15195.591076303712!2d75.0450023419946!3d17.796501111621637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc40b86d5ce9f29%3A0x74e973fef8a353b9!2z4KS14KWH4KSz4KS-4KSq4KWC4KSwLCDgpK7gpLngpL7gpLDgpL7gpLfgpY3gpJ_gpY3gpLAgNDEzMTEz!5e0!3m2!1smr!2sin!4v1755848175368!5m2!1smr!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
-     <!-- Footer Start -->
+    <!-- Footer Start -->
     <footer class="text-center bg-dark text-white mt-3 py-3">
       <p>&copy; 2025 Mobile Shop. All rights reserved.</p>
       <div>
-      <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
-      <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
-      <a href="#" class="text-white"><i class="bi bi-twitter"></i></a>
-    </div>
+        <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="text-white"><i class="bi bi-twitter"></i></a>
+      </div>
     </footer>
     <!-- Footer End -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
