@@ -92,65 +92,165 @@
       </nav>
     </header>
     <!--Header End-->
-    <h1>contact page</h1>
     <main>
-      <section>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <form>
-                <div class="row">
-                <div class=" col-md-6 mb-3">
-                  <div class="form-floating mb-3">
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="floatingInput"
-                      placeholder="Full Name"
-                    />
-                    <label for="floatingInput">Full Name</label>
-                    </div>
-                    </div>
-                    <div class=" col-md-6 mb-3">
-                    <div class="form-floating mb-3">
-                    <input
-                      type="email"
-                      class="form-control"
-                      id="floatingInput"
-                      placeholder="name@example.com"
-                    />
-                    <label for="floatingInput">Email address</label>
-                  </div>
-                  </div>
-                  </div>
-                  
-                  <div class="form-floating">
-                    <input
-                      type="password"
-                      class="form-control"
-                      id="floatingPassword"
-                      placeholder="Password"
-                    />
-                    <label for="floatingPassword">Password</label>
-                  </div>
+  <section>
+    <div class="container">
+      <div class="row">
+        <!-- Contact Form Column -->
+        <div class="col-md-6 border border-dark p-4 mt-4">
+          <h1 class="mb-4">Contact Us for more info</h1>
+
+          <!-- Form Start -->
+          <form>
+            <div class="row">
+              <!-- Full Name -->
+              <div class="col-md-6">
+                <div class="form-floating mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="fullName"
+                    placeholder="Full Name"
+                  />
+                  <label for="fullName">Full Name</label>
                 </div>
-              </form>
-</div>
-            <div class="col-md-6 mt-4">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15195.591076303712!2d75.0450023419946!3d17.796501111621637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc40b86d5ce9f29%3A0x74e973fef8a353b9!2z4KS14KWH4KSz4KS-4KSq4KWC4KSwLCDgpK7gpLngpL7gpLDgpL7gpLfgpY3gpJ_gpY3gpLAgNDEzMTEz!5e0!3m2!1smr!2sin!4v1755848175368!5m2!1smr!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+
+              <!-- Email -->
+              <div class="col-md-6">
+                <div class="form-floating mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    placeholder="name@example.com"
+                  />
+                  <label for="email">Email address</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <!-- Phone -->
+              <div class="col-md-6">
+                <div class="form-floating mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="phone"
+                    placeholder="Phone"
+                  />
+                  <label for="phone">Phone</label>
+                </div>
+              </div>
+
+              <!-- Password -->
+              <div class="col-md-6">
+                <div class="form-floating mb-3">
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="password"
+                    placeholder="Password"
+                  />
+                  <label for="password">Password</label>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+            <div class="col-md-6">
+            <!-- City Dropdown -->
+            <div class="form-floating mb-3">
+              <select
+                class="form-select"
+                id="city"
+                aria-label="Select City"
+              >
+                <option selected>Select City</option>
+                <option value="1">Mumbai</option>
+                <option value="2">Pune</option>
+                <option value="3">Nashik</option>
+                <option value="4">Solapur</option>
+                <option value="5">Other</option>
+              </select>
+              <label for="city">Select City</label>
+            </div>
+            </div>
+            <!-- Mobile Brand -->
+             <div class="col-md-6">
+            <div class="form-floating mb-3">
+              <select class="form-select" id="mobileBrand">
+                <option selected>Select Mobile Brand</option>
+                <option value="1">Apple</option>
+                <option value="2">Samsung</option>
+                <option value="3">OnePlus</option>
+                <option value="4">Vivo</option>
+                <option value="5">Oppo</option>
+                <option value="6">Other</option>
+              </select>
+              <label for="mobileBrand">Preferred Mobile Brand</label>
             </div>
           </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="form-floating mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="Zip"
+                    placeholder="Zip Code"
+                  />
+                  <label for="phone">Zip Code</label>
+                </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-floating mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="Country"
+                    placeholder="Country"
+                  />
+                  <label for="fullName">Country</label>
+                </div>
+            </div>
+            <div class="col-md-4"></div>
+          </div>
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary w-100">
+              Submit
+            </button>
+          </form>
         </div>
-      </section>
-    </main>
+
+        <!-- Right Column (Empty / Image / Info Section) -->
+        <div class="col-md-6 d-flex align-items-center justify-content-center">
+          <!-- You can place an image or contact info here -->
+          <img src="contact-image.png" alt="Contact Us" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
 
     <!-- Footer Start -->
     <footer class="text-center bg-dark text-white mt-3 py-3">
       <p>&copy; 2025 Mobile Shop. All rights reserved.</p>
       <div>
-        <a href="https://www.facebook.com/" target="_blank" class="text-white me-3"><i class="bi bi-facebook  text-primary fs-3"></i></a>
-        <a href="https://www.instagram.com/" class="text-white me-3"><i class="bi bi-instagram text-danger fs-3"></i></a>
-        <a href="https://twitter.com/" class="text-white"><i class="bi bi-twitter  text-primary fs-3"></i></a>
+        <a
+          href="https://www.facebook.com/"
+          target="_blank"
+          class="text-white me-3"
+          ><i class="bi bi-facebook text-primary fs-3"></i
+        ></a>
+        <a href="https://www.instagram.com/" class="text-white me-3"
+          ><i class="bi bi-instagram text-danger fs-3"></i
+        ></a>
+        <a href="https://twitter.com/" class="text-white"
+          ><i class="bi bi-twitter text-primary fs-3"></i
+        ></a>
       </div>
     </footer>
     <!-- Footer End -->
